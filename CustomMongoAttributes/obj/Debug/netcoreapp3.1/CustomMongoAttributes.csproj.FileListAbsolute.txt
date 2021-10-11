@@ -1,0 +1,5 @@
+D:\Development\ascendum\CustomMongoAttributes\CustomMongoAttributes\obj\Debug\netcoreapp3.1\CustomMongoAttributes.csproj.AssemblyReference.cache
+D:\Development\ascendum\CustomMongoAttributes\CustomMongoAttributes\obj\Debug\netcoreapp3.1\CustomMongoAttributes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\ascendum\CustomMongoAttributes\CustomMongoAttributes\obj\Debug\netcoreapp3.1\CustomMongoAttributes.AssemblyInfoInputs.cache
+D:\Development\ascendum\CustomMongoAttributes\CustomMongoAttributes\obj\Debug\netcoreapp3.1\CustomMongoAttributes.AssemblyInfo.cs
+D:\Development\ascendum\CustomMongoAttributes\CustomMongoAttributes\obj\Debug\netcoreapp3.1\CustomMongoAttributes.csproj.CoreCompileInputs.cache
