@@ -12,7 +12,7 @@ namespace MongoTriggerSample
             [MongoTrigger(Connection = "MongoConnection", QueueGroup = "SampleGroup")] string message,
             ILogger log)
         {
-            log.LogInformation("C# HTTP trigger function processed a request.");
+            log.LogInformation($"Mongo Trigger {message}");
         }
     }
 }

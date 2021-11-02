@@ -1,25 +1,24 @@
 ﻿<Properties StartupConfiguration="{67DDCB4F-1714-4828-BC87-42D39E7F9B47}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CustomMongoAttributes/CustomMongoAttributes.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomMongoAttributes/MongoBindingStartup.cs">
     <Files>
-      <File FileName="CustomMongoAttributes/MongoChangeStreamListener.cs" Line="6" Column="32" />
-      <File FileName="CustomMongoAttributes/MongoExtensionConfigProvider.cs" Line="1" Column="1" />
-      <File FileName="CustomMongoAttributes/MongoTriggerAttribute.cs" Line="25" Column="1" />
-      <File FileName="CustomMongoAttributes/MongoTriggerBinding.cs" Line="1" Column="1" />
-      <File FileName="CustomMongoAttributes/MongoWebJobsBuilderExtensions.cs" Line="1" Column="1" />
-      <File FileName="CustomMongoAttributes/MongoTriggerBindingProvider.cs" Line="1" Column="1" />
-      <File FileName="MongoTriggerSample/MongoTriggerSample.cs" Line="5" Column="1" />
-      <File FileName="MongoTriggerSample/local.settings.json" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoExtensionConfigProvider.cs" Line="4" Column="34" />
+      <File FileName="CustomMongoAttributes/MongoTriggerAttribute.cs" Line="4" Column="34" />
+      <File FileName="MongoTriggerSample/.gitignore" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoTriggerBinding.cs" Line="10" Column="34" />
+      <File FileName="CustomMongoAttributes/MongoTriggerBindingProvider.cs" Line="5" Column="34" />
+      <File FileName="CustomMongoAttributes/MongoWebJobsBuilderExtensions.cs" Line="5" Column="34" />
+      <File FileName="CustomMongoAttributes/MongoChangeStreamListener.cs" Line="1" Column="1" />
+      <File FileName="MongoTriggerSample/MongoTriggerSample.cs" Line="6" Column="29" />
       <File FileName="MongoTriggerSample/host.json" Line="1" Column="1" />
-      <File FileName="CustomMongoAttributes/CustomMongoAttributes.csproj" Line="4" Column="20" />
+      <File FileName="MongoTriggerSample/local.settings.json" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoBindingStartup.cs" Line="3" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomMongoAttributes" expanded="True">
             <Node name="CustomMongoAttributes" expanded="True" />
-            <Node name="MongoTriggerSample" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-            </Node>
+            <Node name="MongoTriggerSample" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -29,7 +28,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MongoTriggerSample FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MongoTriggerSample PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CustomMongoAttributes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
