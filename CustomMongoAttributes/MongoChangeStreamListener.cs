@@ -27,10 +27,8 @@ namespace CustomMongoAttributes
                 TriggerValue = "foo"
             };
 
-            var task = _executor.TryExecuteAsync(triggerData, CancellationToken.None);
-            task.Wait();
-
-            return Task.Run(() => { throw new System.NotImplementedException(); });
+            return _executor.TryExecuteAsync(triggerData, CancellationToken.None);
+            // task.Wait()
         }
 
         // TODO: Finish me.

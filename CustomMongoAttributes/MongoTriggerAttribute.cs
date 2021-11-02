@@ -8,7 +8,7 @@ namespace CustomMongoAttributes
     /// </summary>
     [AttributeUsage(AttributeTargets.Parameter)]
     [Binding]
-    class MongoTriggerAttribute : Attribute
+    public class MongoTriggerAttribute : Attribute
     {
         public string Connection { get; set; }
         public string QueueGroup { get; set; }

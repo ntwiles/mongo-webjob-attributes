@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{E4F2A467-55EC-4F65-ABEE-24B14AF78916}|Default">
+  <MonoDevelop.Ide.ItemProperties.MongoTriggerSample FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CustomMongoAttributes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
