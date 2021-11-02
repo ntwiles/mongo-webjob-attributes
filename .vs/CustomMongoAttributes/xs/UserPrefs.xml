@@ -1,5 +1,39 @@
-﻿<Properties StartupConfiguration="{E4F2A467-55EC-4F65-ABEE-24B14AF78916}|Default">
-  <MonoDevelop.Ide.ItemProperties.MongoTriggerSample FirstBuild="True" />
+﻿<Properties StartupConfiguration="{67DDCB4F-1714-4828-BC87-42D39E7F9B47}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomMongoAttributes/CustomMongoAttributes.csproj">
+    <Files>
+      <File FileName="CustomMongoAttributes/MongoChangeStreamListener.cs" Line="6" Column="32" />
+      <File FileName="CustomMongoAttributes/MongoExtensionConfigProvider.cs" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoTriggerAttribute.cs" Line="25" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoTriggerBinding.cs" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoWebJobsBuilderExtensions.cs" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoTriggerBindingProvider.cs" Line="1" Column="1" />
+      <File FileName="MongoTriggerSample/MongoTriggerSample.cs" Line="5" Column="1" />
+      <File FileName="MongoTriggerSample/local.settings.json" Line="1" Column="1" />
+      <File FileName="MongoTriggerSample/host.json" Line="1" Column="1" />
+      <File FileName="CustomMongoAttributes/CustomMongoAttributes.csproj" Line="4" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomMongoAttributes" expanded="True">
+            <Node name="CustomMongoAttributes" expanded="True" />
+            <Node name="MongoTriggerSample" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MongoTriggerSample FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CustomMongoAttributes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

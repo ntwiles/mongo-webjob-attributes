@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PhipB9rE9cHNI85CciqExk+fsJRcAfbdYUde97pBO2Hgw9qqoYUY70P9LUQeplycRrYshZs1zq3nTzdpMf5dAg==",
+  "dgSpecHash": "ObYN4NATS50B4yHUvwXjPPIMLKApNYCZqJgYi82pQwPUGQXcjjFr1wGXEkwNAwTvRUCIdNK1xb6EHLERcEhX/w==",
   "success": true,
   "projectFilePath": "/Users/nathan/dev/mongo-webjob-attributes/CustomMongoAttributes/CustomMongoAttributes.csproj",
   "expectedPackageFiles": [
@@ -107,8 +107,7 @@
     "/Users/nathan/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/nathan/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/nathan/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/Users/nathan/.nuget/packages/windowsazure.storage/9.3.1/windowsazure.storage.9.3.1.nupkg.sha512",
-    "/Users/nathan/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.18/microsoft.netcore.app.host.osx-x64.3.1.18.nupkg.sha512"
+    "/Users/nathan/.nuget/packages/windowsazure.storage/9.3.1/windowsazure.storage.9.3.1.nupkg.sha512"
   ],
   "logs": []
 }
