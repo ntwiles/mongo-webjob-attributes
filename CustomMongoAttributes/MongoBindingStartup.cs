@@ -1,5 +1,6 @@
 ﻿using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
+
 using WebJobs.Extension.Mongo;
 
 [assembly: WebJobsStartup(typeof(MongoBinding.Startup))]
@@ -17,7 +18,7 @@ namespace WebJobs.Extension.Mongo
         {
             public void Configure(IWebJobsBuilder builder)
             {
-                // Add NATS extensions
+                // Add Mongo extensions
                 builder.AddMongoExtension();
             }
         }

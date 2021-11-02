@@ -8,7 +8,12 @@ namespace WebJobs.Extension.Mongo
         public void Initialize(ExtensionConfigContext context)
         {
             context.AddBindingRule<MongoTriggerAttribute>()
-                .BindToTrigger(new MongoTriggerBindingProvider());
+                .BindToTrigger(new MongoTriggerBindingProvider(this));
+        }
+
+        public MongoTriggerContext CreateContext(MongoTriggerAttribute attribute)
+        {
+            return new MongoTriggerContext(attribute, "foo");
         }
     }
 }

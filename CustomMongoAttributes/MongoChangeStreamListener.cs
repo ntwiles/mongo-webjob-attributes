@@ -44,7 +44,7 @@ namespace WebJobs.Extension.Mongo
         /// </summary>
         public void Cancel()
         {
-            throw new System.NotImplementedException();
+           
         }
 
         /// <summary>
@@ -52,7 +52,7 @@ namespace WebJobs.Extension.Mongo
         /// </summary>
         public void Dispose()
         {
-            throw new System.NotImplementedException();
+            
         }
     }
 }
