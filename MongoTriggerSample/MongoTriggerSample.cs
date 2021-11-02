@@ -1,5 +1,5 @@
 ﻿
-using CustomMongoAttributes;
+using WebJobs.Extension.Mongo;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 

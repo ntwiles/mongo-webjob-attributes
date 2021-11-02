@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Azure.WebJobs.Description;
 
-namespace CustomMongoAttributes
+namespace WebJobs.Extension.Mongo
 {
     /// <summary>
     /// <c>Attribute</c> class for Trigger

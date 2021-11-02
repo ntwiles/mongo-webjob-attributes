@@ -7,7 +7,7 @@ using Microsoft.Azure.WebJobs.Host.Listeners;
 using Microsoft.Azure.WebJobs.Host.Protocols;
 using Microsoft.Azure.WebJobs.Host.Triggers;
 
-namespace CustomMongoAttributes
+namespace WebJobs.Extension.Mongo
 {
     public class MongoTriggerBinding : ITriggerBinding
     {

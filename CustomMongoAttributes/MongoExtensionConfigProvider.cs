@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.WebJobs.Host.Config;
 using Microsoft.Azure.WebJobs.Host.Triggers;
 
-namespace CustomMongoAttributes
+namespace WebJobs.Extension.Mongo
 {
     public class MongoExtensionConfigProvider: IExtensionConfigProvider
     {

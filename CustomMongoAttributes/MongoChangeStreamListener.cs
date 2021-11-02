@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs.Host.Executors;
 using Microsoft.Azure.WebJobs.Host.Listeners;
 
-namespace CustomMongoAttributes
+namespace WebJobs.Extension.Mongo
 {
     public class MongoChangeStreamListener : IListener
     {

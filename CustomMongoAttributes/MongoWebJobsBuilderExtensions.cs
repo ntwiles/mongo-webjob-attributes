@@ -2,7 +2,7 @@
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CustomMongoAttributes
+namespace WebJobs.Extension.Mongo
 {
     /// <summary>
     /// WebJobBuilder extension to add Mongo Change Stream watcher extensions
