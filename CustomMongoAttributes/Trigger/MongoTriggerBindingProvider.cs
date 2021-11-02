@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Threading.Tasks;
 
 using Microsoft.Azure.WebJobs.Host.Triggers;
@@ -18,12 +19,22 @@ namespace WebJobs.Extension.Mongo
             _provider = provider;
         }
 
-        public async Task<ITriggerBinding> TryCreateAsync(TriggerBindingProviderContext context)
+        /// <summary>
+        /// Create the trigger binding
+        /// </summary>
+        /// <param name="context"><c>TriggerBindingProviderContext</c> context</param>
+        /// <returns>A Task that has the trigger binding</returns>
+        public Task<ITriggerBinding> TryCreateAsync(TriggerBindingProviderContext context)
         {
-            var attribute = context.Parameter.GetCustomAttribute<MongoTriggerAttribute>(false);
+            var parameter = context.Parameter;
+            var attribute = parameter.GetCustomAttribute<MongoTriggerAttribute>(false);
 
-            var mongoTrigger = context.Parameter.GetCustomAttribute<MongoTriggerAttribute>(inherit: false);
-            return mongoTrigger == null ? null : new MongoTriggerBinding(_provider.CreateContext(attribute));
+            if (attribute == null) return Task.FromResult<ITriggerBinding>(null);
+            if (parameter.ParameterType != typeof(string)) throw new InvalidOperationException("Invalid parameter type");
+
+            var triggerBinding = new MongoTriggerBinding(_provider.CreateContext(attribute));
+
+            return Task.FromResult<ITriggerBinding>(triggerBinding);
         }
     }
 }

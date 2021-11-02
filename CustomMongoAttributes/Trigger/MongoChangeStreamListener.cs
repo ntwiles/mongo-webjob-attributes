@@ -19,24 +19,19 @@ namespace WebJobs.Extension.Mongo
             _executor = executor;
         }
 
-        // TODO: Finish me.
         public Task StartAsync(CancellationToken cancellationToken)
         {
             var triggerData = new TriggeredFunctionData
             {
-                TriggerValue = "foo"
+                TriggerValue = "[My Triggering Event]"
             };
 
             return _executor.TryExecuteAsync(triggerData, CancellationToken.None);
-            // task.Wait()
         }
 
-        // TODO: Finish me.
         public Task StopAsync(CancellationToken cancellationToken)
         {
-            return Task.Run(() => {
-                // _context.Client.Disconnect();
-            });
+            return Task.CompletedTask;
         }
 
         /// <summary>

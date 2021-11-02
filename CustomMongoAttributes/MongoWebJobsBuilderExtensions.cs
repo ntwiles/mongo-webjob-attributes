@@ -23,7 +23,6 @@ namespace WebJobs.Extension.Mongo
             }
 
             builder.AddExtension<MongoExtensionConfigProvider>();
-            // TODO: Replace this.
             //builder.Services.AddSingleton<INatsServiceFactory, NatsServiceFactory>();
 
             return builder;

@@ -13,7 +13,7 @@ namespace WebJobs.Extension.Mongo
 
         public MongoTriggerContext CreateContext(MongoTriggerAttribute attribute)
         {
-            return new MongoTriggerContext(attribute, "foo");
+            return new MongoTriggerContext(attribute, "foo-client");
         }
     }
 }

@@ -1,7 +1,9 @@
-﻿
-using WebJobs.Extension.Mongo;
+﻿using System;
+
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
+
+using WebJobs.Extension.Mongo;
 
 namespace MongoTriggerSample
 {
@@ -9,10 +11,9 @@ namespace MongoTriggerSample
     {
         [FunctionName("MongoTriggerSample")]
         public static void Run(
-            [MongoTrigger(Connection = "MongoConnection", QueueGroup = "SampleGroup")] string message,
-            ILogger log)
+            [MongoTrigger(Connection = "MongoConnection", QueueGroup = "SampleGroup")] string message)
         {
-            log.LogInformation($"Mongo Trigger {message}");
+            Console.WriteLine($"Function Triggered: {message}");
         }
     }
 }

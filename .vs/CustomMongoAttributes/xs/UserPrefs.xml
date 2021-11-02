@@ -1,23 +1,68 @@
 ﻿<Properties StartupConfiguration="{67DDCB4F-1714-4828-BC87-42D39E7F9B47}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CustomMongoAttributes/MongoBindingStartup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomMongoAttributes/Trigger/MongoTriggerBindingProvider.cs">
     <Files>
-      <File FileName="CustomMongoAttributes/MongoExtensionConfigProvider.cs" Line="4" Column="34" />
-      <File FileName="CustomMongoAttributes/MongoTriggerAttribute.cs" Line="4" Column="34" />
-      <File FileName="MongoTriggerSample/.gitignore" Line="1" Column="1" />
-      <File FileName="CustomMongoAttributes/MongoTriggerBinding.cs" Line="10" Column="34" />
-      <File FileName="CustomMongoAttributes/MongoTriggerBindingProvider.cs" Line="5" Column="34" />
-      <File FileName="CustomMongoAttributes/MongoWebJobsBuilderExtensions.cs" Line="5" Column="34" />
-      <File FileName="CustomMongoAttributes/MongoChangeStreamListener.cs" Line="1" Column="1" />
-      <File FileName="MongoTriggerSample/MongoTriggerSample.cs" Line="6" Column="29" />
-      <File FileName="MongoTriggerSample/host.json" Line="1" Column="1" />
-      <File FileName="MongoTriggerSample/local.settings.json" Line="1" Column="1" />
-      <File FileName="CustomMongoAttributes/MongoBindingStartup.cs" Line="3" Column="31" />
+      <File FileName="CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" Line="33" Column="10" />
+      <File FileName="CustomMongoAttributes/Trigger/MongoTriggerBinding.cs" />
+      <File FileName="CustomMongoAttributes/Trigger/MongoTriggerContext.cs" />
+      <File FileName="CustomMongoAttributes/Trigger/MongoTriggerBindingProvider.cs" Line="37" Column="1" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Triggers/CompositeTriggerBindingProvider.cs" />
+      <File FileName="CustomMongoAttributes/MongoBinding.cs" />
+      <File FileName="CustomMongoAttributes/MongoExtensionConfigProvider.cs" Line="16" Column="1" />
+      <File FileName="CustomMongoAttributes/MongoWebJobsBuilderExtensions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/WebJobsBuilderExtensions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/WebJobsHostBuilderExtensions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/OptionsFormatter/OptionsLoggingSource.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/OptionsFormatter/WebJobsOptionsFactory.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/OptionsFormatter/LoggerFilterOptionsFormatter.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/Logger/Constants/LogCategories.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/FunctionInstanceLogger.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/DefaultHostProcessMonitor.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/ProcessMonitor.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Utility.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/ConcurrencyOptions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Config/ConcurrencyOptionsSetup.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/WebJobsServiceCollectionExtensions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Extensions/IConfigurationExtensions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/HostHealthThrottleProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/ThreadPoolStarvationThrottleProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/DefaultConcurrencyThrottleManager.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/ConcurrencyManager.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Scale/ConcurrencyThrottleAggregateStatus.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Hosting/DrainModeManager.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/Logger/Aggregator/FunctionResultAggregatorFactory.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/Logger/Aggregator/FunctionResultAggregatorOptions.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/EventCollectorFactory.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/Logger/Aggregator/FunctionResultAggregator.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Loggers/CompositeFunctionEventCollector.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Indexers/FunctionIndexer.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Triggers/TriggerBindingProviderContext.cs" />
+      <File FileName="MongoTriggerSample/MongoTriggerSample.cs" />
+      <File FileName="MongoTriggerSample/host.json" />
+      <File FileName="MongoTriggerSample/MongoTriggerSample.csproj" />
+      <File FileName="MongoTriggerSample/local.settings.json" />
+      <File FileName="CustomMongoAttributes/Trigger/MongoTriggerAttribute.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/BindingProviderContext.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/BindingProviders/CompositeBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/BindingProviders/GenericCompositeBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/Runtime/RuntimeBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/Cancellation/CancellationTokenBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/TraceWriter/TraceWriterBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/ILogger/ILoggerBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/Data/DataBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/Bindings/ExecutionContext/ExecutionContextBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk-extensions/e83571e7e08af60e9040f4cb42a08a2154fbc953/src/WebJobs.Extensions.Http/HttpDirectRequestBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk-extensions/e83571e7e08af60e9040f4cb42a08a2154fbc953/src/WebJobs.Extensions.Http/ClaimsPrincipalBindingProvider.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7/src/Microsoft.Azure.WebJobs.Host/TypeUtility.cs" Line="163" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomMongoAttributes" expanded="True">
-            <Node name="CustomMongoAttributes" expanded="True" />
+            <Node name="CustomMongoAttributes" expanded="True">
+              <Node name="Trigger" expanded="True">
+                <Node name="MongoTriggerBindingProvider.cs" selected="True" />
+              </Node>
+            </Node>
             <Node name="MongoTriggerSample" expanded="True" />
           </Node>
         </State>
@@ -30,9 +75,19 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MongoTriggerSample PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/nathan/Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk/da78eb482e5b2d44fae6b911bc11bddefff7abd7</String>
+    <String>/Users/nathan/Library/Caches/VisualStudio/17.0/Symbols/Azure/azure-webjobs-sdk-extensions/e83571e7e08af60e9040f4cb42a08a2154fbc953</String>
+  </Debugger.DebugSourceFolders>
   <MonoDevelop.Ide.ItemProperties.CustomMongoAttributes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/nathan/dev/mongo-webjob-attributes/CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" relfile="CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" line="50" column="1" />
+      <Breakpoint file="/Users/nathan/dev/mongo-webjob-attributes/CustomMongoAttributes/Trigger/MongoTriggerAttribute.cs" relfile="CustomMongoAttributes/Trigger/MongoTriggerAttribute.cs" line="21" column="1" />
+      <Breakpoint file="/Users/nathan/dev/mongo-webjob-attributes/CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" relfile="CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" line="34" column="1" />
+      <Breakpoint file="/Users/nathan/dev/mongo-webjob-attributes/CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" relfile="CustomMongoAttributes/Trigger/MongoChangeStreamListener.cs" line="42" column="1" />
+      <Breakpoint file="/Users/nathan/dev/mongo-webjob-attributes/CustomMongoAttributes/Trigger/MongoTriggerBindingProvider.cs" relfile="CustomMongoAttributes/Trigger/MongoTriggerBindingProvider.cs" line="37" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

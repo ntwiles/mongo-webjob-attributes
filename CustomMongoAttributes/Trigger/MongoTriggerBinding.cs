@@ -34,16 +34,17 @@ namespace WebJobs.Extension.Mongo
 
         public Task<ITriggerData> BindAsync(object value, ValueBindingContext context)
         {
+            var valueProvider = new MongoValueBinder(value);
             var bindingData = new Dictionary<string, object>();
-            var triggerData = new TriggerData(bindingData);
+            var triggerData = new TriggerData(valueProvider, bindingData);
 
             return Task.FromResult<ITriggerData>(triggerData);
         }
 
-        public async Task<IListener> CreateListenerAsync(ListenerFactoryContext context)
+        public Task<IListener> CreateListenerAsync(ListenerFactoryContext context)
         {
-            await Task.Run(() => 1);
-            return new MongoChangeStreamListener(context.Executor);
+            var listener = new MongoChangeStreamListener(context.Executor);
+            return Task.FromResult<IListener>(listener);
         }
 
         public ParameterDescriptor ToParameterDescriptor()
