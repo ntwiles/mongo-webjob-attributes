@@ -43,7 +43,7 @@ namespace WebJobs.Extension.Mongo
 
         public Task<IListener> CreateListenerAsync(ListenerFactoryContext context)
         {
-            var listener = new MongoChangeStreamListener(context.Executor);
+            var listener = new MongoChangeStreamListener(context.Executor, _context);
             return Task.FromResult<IListener>(listener);
         }
 

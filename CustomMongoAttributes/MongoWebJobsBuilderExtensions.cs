@@ -3,6 +3,8 @@
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.DependencyInjection;
 
+using MongoDB.Driver;
+
 namespace WebJobs.Extension.Mongo
 {
     /// <summary>
@@ -24,7 +26,7 @@ namespace WebJobs.Extension.Mongo
             }
 
             builder.AddExtension<MongoExtensionConfigProvider>();
-            //builder.Services.AddSingleton<INatsServiceFactory, NatsServiceFactory>();
+            builder.Services.AddSingleton<IMongoServiceFactory, MongoServiceFactory>();
 
             return builder;
         }

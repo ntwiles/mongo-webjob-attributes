@@ -1,4 +1,6 @@
-﻿namespace WebJobs.Extension.Mongo
+﻿using MongoDB.Driver;
+
+namespace WebJobs.Extension.Mongo
 {
     /// <summary>
     /// Trigger context class
@@ -9,17 +11,18 @@
         /// <c>Attribute</c> instance
         /// </summary>
         public MongoTriggerAttribute TriggerAttribute;
+
         /// <summary>
-        /// <c>NatsClient</c> instance to connect and subscribe to NATS
+        /// <c>MongoClient</c> instance to connect to MongoDB.
         /// </summary>
-        public string Client;
+        public MongoClient Client;
 
         /// <summary>
         /// Constructor
         /// </summary>
-        /// <param name="attribute">Attribute instnace</param>
-        /// <param name="client">NatsClient instance</param>
-        public MongoTriggerContext(MongoTriggerAttribute attribute, string client)
+        /// <param name="attribute">Attribute instance</param>
+        /// <param name="client">MongoClient instance</param>
+        public MongoTriggerContext(MongoTriggerAttribute attribute, MongoClient client)
         {
             this.TriggerAttribute = attribute;
             this.Client = client;
