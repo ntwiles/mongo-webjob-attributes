@@ -25,23 +25,27 @@ namespace WebJobs.Extension.Mongo
             _context = context;
         }
 
-        public Task StartAsync(CancellationToken cancellationToken)
+        private Task executeFunction(string message)
         {
+            var triggerData = new TriggeredFunctionData
+            {
+                TriggerValue = message
+            };
+
+            return _executor.TryExecuteAsync(triggerData, CancellationToken.None);
+        }
+
+        public async Task StartAsync(CancellationToken cancellationToken)
+        {
+            await executeFunction("Starting Listener");
 
             using (var cursor = _context.Client.Watch())
             {
                 foreach (var change in cursor.ToEnumerable())
                 {
-                    var triggerData = new TriggeredFunctionData
-                    {
-                        TriggerValue = "[My Triggering Event]"
-                    };
-
-                    return _executor.TryExecuteAsync(triggerData, CancellationToken.None);
+                    await executeFunction("Change stream event!");
                 }
             }
-
-            return null;
         }
 
         public Task StopAsync(CancellationToken cancellationToken)
